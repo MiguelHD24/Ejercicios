@@ -57,11 +57,6 @@ namespace DAL
 				 return bd.Suppliers.Where(a=>a.SupplierID == Entidad.SupplierID).SingleOrDefault();
 			}
 		}
-		 public static List<Suppliers> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

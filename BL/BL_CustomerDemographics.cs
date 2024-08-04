@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_CustomerDemographics.Registro(Entidad);
 		}
-		 public static List<CustomerDemographics> Lista (bool Activo = true)
-		{
-			 return DAL_CustomerDemographics.Lista(Activo);
-		}
+		 
 	}
 }

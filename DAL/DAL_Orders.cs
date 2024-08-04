@@ -59,11 +59,6 @@ namespace DAL
 				 return bd.Orders.Where(a=>a.OrderID == Entidad.OrderID).SingleOrDefault();
 			}
 		}
-		 public static List<Orders> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

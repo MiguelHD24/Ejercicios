@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_Customers.Registro(Entidad);
 		}
-		 public static List<Customers> Lista (bool Activo = true)
-		{
-			 return DAL_Customers.Lista(Activo);
-		}
+		 
 	}
 }

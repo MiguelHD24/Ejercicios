@@ -57,7 +57,7 @@
     <Compile Include="BL_Customers.cs" />
     <Compile Include="BL_Employees.cs" />
     <Compile Include="BL_EmployeeTerritories.cs" />
-    <Compile Include="BL_Order Details.cs" />
+    <Compile Include="BL_OrderDetails.cs" />
     <Compile Include="BL_Orders.cs" />
     <Compile Include="BL_Products.cs" />
     <Compile Include="BL_Region.cs" />

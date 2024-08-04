@@ -12,6 +12,6 @@ namespace EL
 		[Required]
 		public string CompanyName { get; set; }
 		[MaxLength(24)]
-		public string? Phone { get; set; }
+		public string Phone { get; set; }
 	 }
 }

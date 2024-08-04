@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_Territories.Registro(Entidad);
 		}
-		 public static List<Territories> Lista (bool Activo = true)
-		{
-			 return DAL_Territories.Lista(Activo);
-		}
+		
 	}
 }

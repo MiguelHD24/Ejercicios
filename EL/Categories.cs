@@ -12,8 +12,8 @@ namespace EL
 		[Required]
 		public string CategoryName { get; set; }
 		[MaxLength(1073741823)]
-		public string? Description { get; set; }
+		public string Description { get; set; }
 		[MaxLength(2147483647)]
-		public byte[]? Picture { get; set; }
+		public byte[] Picture { get; set; }
 	 }
 }

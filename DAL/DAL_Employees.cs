@@ -63,11 +63,6 @@ namespace DAL
 				 return bd.Employees.Where(a=>a.EmployeeID == Entidad.EmployeeID).SingleOrDefault();
 			}
 		}
-		 public static List<Employees> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

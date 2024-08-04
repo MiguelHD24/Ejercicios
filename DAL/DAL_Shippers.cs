@@ -48,11 +48,6 @@ namespace DAL
 				 return bd.Shippers.Where(a=>a.ShipperID == Entidad.ShipperID).SingleOrDefault();
 			}
 		}
-		 public static List<Shippers> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

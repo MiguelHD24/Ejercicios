@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_Employees.Registro(Entidad);
 		}
-		 public static List<Employees> Lista (bool Activo = true)
-		{
-			 return DAL_Employees.Lista(Activo);
-		}
+		
 	}
 }

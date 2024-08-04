@@ -49,11 +49,6 @@ namespace DAL
 				 return bd.Categories.Where(a=>a.CategoryID == Entidad.CategoryID).SingleOrDefault();
 			}
 		}
-		 public static List<Categories> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

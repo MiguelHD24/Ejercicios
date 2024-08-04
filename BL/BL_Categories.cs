@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_Categories.Registro(Entidad);
 		}
-		 public static List<Categories> Lista (bool Activo = true)
-		{
-			 return DAL_Categories.Lista(Activo);
-		}
+		
 	}
 }

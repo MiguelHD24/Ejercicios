@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_Products.Registro(Entidad);
 		}
-		 public static List<Products> Lista (bool Activo = true)
-		{
-			 return DAL_Products.Lista(Activo);
-		}
+		 
 	}
 }

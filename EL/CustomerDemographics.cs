@@ -10,6 +10,6 @@ namespace EL
 		[MaxLength(10)]
 		public string CustomerTypeID { get; set; }
 		[MaxLength(1073741823)]
-		public string? CustomerDesc { get; set; }
+		public string CustomerDesc { get; set; }
 	 }
 }

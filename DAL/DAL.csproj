@@ -59,7 +59,7 @@
     <Compile Include="DAL_Customers.cs" />
     <Compile Include="DAL_Employees.cs" />
     <Compile Include="DAL_EmployeeTerritories.cs" />
-    <Compile Include="DAL_Order Details.cs" />
+    <Compile Include="DAL_OrderDetails.cs" />
     <Compile Include="DAL_Orders.cs" />
     <Compile Include="DAL_Products.cs" />
     <Compile Include="DAL_Region.cs" />

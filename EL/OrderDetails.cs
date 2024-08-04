@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace EL
 {
-	[Table("Order Details")]
-	public class Order Details
+	[Table("OrderDetails")]
+	public class OrderDetails
 	 {
 		[Key]
 		public int OrderID { get; set; }

@@ -56,11 +56,6 @@ namespace DAL
 				 return bd.Customers.Where(a=>a.CustomerID == Entidad.CustomerID).SingleOrDefault();
 			}
 		}
-		 public static List<Customers> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

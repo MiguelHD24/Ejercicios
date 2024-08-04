@@ -47,11 +47,6 @@ namespace DAL
 				 return bd.CustomerDemographics.Where(a=>a.CustomerTypeID == Entidad.CustomerTypeID).SingleOrDefault();
 			}
 		}
-		 public static List<CustomerDemographics> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

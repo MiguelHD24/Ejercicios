@@ -47,11 +47,6 @@ namespace DAL
 				 return bd.EmployeeTerritories.Where(a=>a.EmployeeID == Entidad.EmployeeID).SingleOrDefault();
 			}
 		}
-		 public static List<EmployeeTerritories> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

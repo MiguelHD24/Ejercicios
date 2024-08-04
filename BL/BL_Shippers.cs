@@ -27,9 +27,6 @@ namespace BL
 		{
 			 return DAL_Shippers.Registro(Entidad);
 		}
-		 public static List<Shippers> Lista (bool Activo = true)
-		{
-			 return DAL_Shippers.Lista(Activo);
-		}
+		 
 	}
 }

@@ -48,11 +48,6 @@ namespace DAL
 				 return bd.Territories.Where(a=>a.TerritoryID == Entidad.TerritoryID).SingleOrDefault();
 			}
 		}
-		 public static List<Territories> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

@@ -47,11 +47,6 @@ namespace DAL
 				 return bd.Region.Where(a=>a.RegionID == Entidad.RegionID).SingleOrDefault();
 			}
 		}
-		 public static List<Region> Lista (bool Activo = true)
-		{
-			 using (BDNorthwind bd = new BDNorthwind ())
-			{
-			}
-		}
+		 
 	}
 }

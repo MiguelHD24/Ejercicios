@@ -57,7 +57,7 @@
     <Compile Include="Customers.cs" />
     <Compile Include="Employees.cs" />
     <Compile Include="EmployeeTerritories.cs" />
-    <Compile Include="Order Details.cs" />
+    <Compile Include="OrderDetails.cs" />
     <Compile Include="Orders.cs" />
     <Compile Include="Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
